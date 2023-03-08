@@ -5,7 +5,7 @@ dj = [0,-1,1,0]
 def bfs(i,j):
     Q = []
     Q.append((i,j))
-    visited[i][j] = 1
+    visited[i][j] = 1           # 방문체크
     while Q:
         i,j = Q.pop(0)
         for s in range(4):
@@ -15,8 +15,8 @@ def bfs(i,j):
                 if arr[ni][nj] == 1:
                     if not visited[ni][nj]:
                         Q.append((ni,nj))
-                        visited[ni][nj] = visited[i][j] + 1
-                elif ni == N and nj == M:
+                        visited[ni][nj] = visited[i][j] + 1 # 방문체크
+                elif ni == N and nj == M:           # 도착점일때 return
                     return
 
 
