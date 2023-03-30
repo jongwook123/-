@@ -24,14 +24,6 @@
 |0224_문제풀이4|[링크](./SWEA/%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4/0224_%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B44/%ED%83%88%EC%A3%BC%EB%B2%94%20%EA%B2%80%EA%B1%B0.py)|
 |0303_문제풀이5|[링크](./SWEA/%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4/0303_%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B45/%EB%86%8D%EC%9E%91%EB%AC%BC%20%EC%88%98%ED%99%95%ED%95%98%EA%B8%B0.py)|
 |반복문|[링크](./SWEA/%EB%B0%98%EB%B3%B5%EB%AC%B8/%EB%B3%84%EC%82%BC%EA%B0%81%ED%98%951.py)|
-### 🚀 반복문
-| 문제번호 | 링크 |
-| ----- | ----- |
-|.idea|[링크](./SWEA/%EB%B0%98%EB%B3%B5%EB%AC%B8/.idea/misc.xml)|
-### 🚀 .idea
-| 문제번호 | 링크 |
-| ----- | ----- |
-|inspectionProfiles|[링크](./SWEA/%EB%B0%98%EB%B3%B5%EB%AC%B8/.idea/inspectionProfiles/profiles_settings.xml)|
 ### 🚀 배열
 | 문제번호 | 링크 |
 | ----- | ----- |
