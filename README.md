@@ -81,6 +81,7 @@
 |전기버스|[링크](./SWEA/%EB%B0%B0%EC%97%B4/%EC%A0%84%EA%B8%B0%EB%B2%84%EC%8A%A4/%EC%A0%84%EA%B8%B0%EB%B2%84%EC%8A%A4.py)|
 |특별한 정렬|[링크](./SWEA/%EB%B0%B0%EC%97%B4/%ED%8A%B9%EB%B3%84%ED%95%9C%20%EC%A0%95%EB%A0%AC/%ED%8A%B9%EB%B3%84%ED%95%9C%20%EC%A0%95%EB%A0%AC.py)|
 |풍선팡2|[링크](./SWEA/%EB%B0%B0%EC%97%B4/%ED%92%8D%EC%84%A0%ED%8C%A12/%ED%92%8D%EC%84%A0%ED%8C%A12.py)|
+|백트래킹|[링크](./SWEA/%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9/%EC%B5%9C%EC%86%8C%20%EC%83%9D%EC%82%B0%20%EB%B9%84%EC%9A%A9.py)|
 ### 🚀 분할정복
 | 문제번호 | 링크 |
 | ----- | ----- |
