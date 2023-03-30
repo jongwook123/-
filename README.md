@@ -1,37 +1,5 @@
 # 
 # 백준 & 프로그래머스 & SWEA 문제 풀이 목록
-### 🚀 Baekjoon
-| 문제번호 | 링크 |
-| ----- | ----- |
-|UnionFind|[링크](./Baekjoon/UnionFind/README.md)|
-### 🚀 UnionFind
-| 문제번호 | 링크 |
-| ----- | ----- |
-|박종욱|[링크](./Baekjoon/UnionFind/%EB%B0%95%EC%A2%85%EC%9A%B1/README.md)|
-### 🚀 박종욱
-| 문제번호 | 링크 |
-| ----- | ----- |
-|.idea|[링크](./Baekjoon/UnionFind/%EB%B0%95%EC%A2%85%EC%9A%B1/.idea/%EB%B0%95%EC%A2%85%EC%9A%B1.iml)|
-### 🚀 .idea
-| 문제번호 | 링크 |
-| ----- | ----- |
-|inspectionProfiles|[링크](./Baekjoon/UnionFind/%EB%B0%95%EC%A2%85%EC%9A%B1/.idea/inspectionProfiles/profiles_settings.xml)|
-|그래프|[링크](./Baekjoon/%EA%B7%B8%EB%9E%98%ED%94%84/README.md)|
-### 🚀 그래프
-| 문제번호 | 링크 |
-| ----- | ----- |
-|스택_큐_덱_리스트|[링크](./Baekjoon/%EC%8A%A4%ED%83%9D_%ED%81%90_%EB%8D%B1_%EB%A6%AC%EC%8A%A4%ED%8A%B8/README.md)|
-### 🚀 스택_큐_덱_리스트
-| 문제번호 | 링크 |
-| ----- | ----- |
-|우선순위큐_트리|[링크](./Baekjoon/%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84%ED%81%90_%ED%8A%B8%EB%A6%AC/README.md)|
-### 🚀 우선순위큐_트리
-| 문제번호 | 링크 |
-| ----- | ----- |
-|최단경로|[링크](./Baekjoon/%EC%B5%9C%EB%8B%A8%EA%B2%BD%EB%A1%9C/README.md)|
-### 🚀 최단경로
-| 문제번호 | 링크 |
-| ----- | ----- |
 ### 🚀 SWEA
 | 문제번호 | 링크 |
 | ----- | ----- |
@@ -59,6 +27,11 @@
 ### 🚀 반복문
 | 문제번호 | 링크 |
 | ----- | ----- |
+|.idea|[링크](./SWEA/%EB%B0%98%EB%B3%B5%EB%AC%B8/.idea/misc.xml)|
+### 🚀 .idea
+| 문제번호 | 링크 |
+| ----- | ----- |
+|inspectionProfiles|[링크](./SWEA/%EB%B0%98%EB%B3%B5%EB%AC%B8/.idea/inspectionProfiles/profiles_settings.xml)|
 ### 🚀 배열
 | 문제번호 | 링크 |
 | ----- | ----- |
