@@ -7,7 +7,7 @@ HEADER="""#
 # 백준 & 프로그래머스 & SWEA 문제 풀이 목록
 """
 
-def main():
+def master():
     content = ""
     content += HEADER
     
@@ -53,4 +53,4 @@ def main():
         fd.write(content)
         
 if __name__ == "__main__":
-    main()
+    master()
