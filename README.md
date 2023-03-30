@@ -4,6 +4,12 @@
 | 문제번호 | 링크 |
 | ----- | ----- |
 |STACK|[링크](./SWEA/STACK/%EB%AF%B8%EB%A1%9C.py)|
+### 🚀 STACK
+| 문제번호 | 링크 |
+| ----- | ----- |
+|Forth|[링크](./SWEA/STACK/Forth/Forth.py)|
+|괄호검사|[링크](./SWEA/STACK/%EA%B4%84%ED%98%B8%EA%B2%80%EC%82%AC/%EA%B4%84%ED%98%B8%EA%B2%80%EC%82%AC.py)|
+|그래프 경로|[링크](./SWEA/STACK/%EA%B7%B8%EB%9E%98%ED%94%84%20%EA%B2%BD%EB%A1%9C/%EA%B7%B8%EB%9E%98%ED%94%84%20%EA%B2%BD%EB%A1%9C.py)|
 |문자열|[링크](./SWEA/%EB%AC%B8%EC%9E%90%EC%97%B4/%EA%B8%80%EC%9E%90%EC%88%98.py)|
 |문제풀이|[링크](./SWEA/%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4/%ED%83%88%EC%A3%BC%EB%B2%94%20%EA%B2%80%EA%B1%B0.py)|
 |반복문|[링크](./SWEA/%EB%B0%98%EB%B3%B5%EB%AC%B8/%EB%B3%84%EC%82%BC%EA%B0%81%ED%98%951.py)|
