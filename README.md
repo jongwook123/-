@@ -153,6 +153,7 @@
 |4803. 트리|[링크](./%EB%B0%B1%EC%A4%80/Gold/4803.%E2%80%85%ED%8A%B8%EB%A6%AC/README.md)|
 |7569. 토마토|[링크](./%EB%B0%B1%EC%A4%80/Gold/7569.%E2%80%85%ED%86%A0%EB%A7%88%ED%86%A0/README.md)|
 |7576. 토마토|[링크](./%EB%B0%B1%EC%A4%80/Gold/7576.%E2%80%85%ED%86%A0%EB%A7%88%ED%86%A0/README.md)|
+|9205. 맥주 마시면서 걸어가기|[링크](./%EB%B0%B1%EC%A4%80/Gold/9205.%E2%80%85%EB%A7%A5%EC%A3%BC%E2%80%85%EB%A7%88%EC%8B%9C%EB%A9%B4%EC%84%9C%E2%80%85%EA%B1%B8%EC%96%B4%EA%B0%80%EA%B8%B0/README.md)|
 ### 🚀 Silver
 | 문제번호 | 링크 |
 | ----- | ----- |
