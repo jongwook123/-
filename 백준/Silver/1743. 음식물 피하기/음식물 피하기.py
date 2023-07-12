@@ -1,39 +1,40 @@
-import sys
 from collections import deque
+import sys
 
-input = sys.stdin.readline
-dx = [0, 0, -1, 1]
-dy = [-1, 1, 0, 0]
+def bfs(i,j,arr):
+    Q = deque()
+    Q.append([i,j])
+    arr[i][j] = 0
+    cnt = 1
+    while Q:
 
-
-def bfs(i, j, trash):
-    q = deque([[i, j]])
-    trash[i][j] = 2  # visited
-    result = 1
-
-    while q:
-        x, y = q.popleft()
-
-        for d in range(4):
-            nx, ny = x + dx[d], y + dy[d]
-            if 0 < nx <= n and 0 < ny <= m and trash[nx][ny] == 1:
-                q.append([nx, ny])
-                trash[nx][ny] = 2
-                result += 1
-    return result
+        a,b = Q.popleft()
 
 
-n, m, k = map(int, input().split())
-trash = [[0] * (m + 1) for _ in range(n + 1)]
-answer = 0
-for _ in range(k):
-    x, y = map(int, input().split())
-    trash[x][y] = 1
+        for s in range(4):
+            na = a + da[s]
+            nb = b + db[s]
+            if 0 < na <= N and 0 < nb <= M and arr[na][nb] == 1:
+                    Q.append([na,nb])
+                    arr[na][nb] = 0
+                    cnt += 1
+    return cnt
 
-for i in range(1, n + 1):
-    for j in range(1, m + 1):
-        if trash[i][j] == 1:
-            ans = bfs(i, j, trash)
-            answer = max(ans, answer)
+da = [0,-1,0,1]
+db = [1,0,-1,0]
 
-print(answer)
+N,M,K = map(int,sys.stdin.readline().split())
+arr = [[0]*(M+1) for _ in range(N+1)]
+max_ = 0
+
+for _ in range(K):
+    r,c = map(int,sys.stdin.readline().split())
+    arr[r][c] = 1
+
+for i in range(1,N+1):
+    for j in range(1,M+1):
+        if arr[i][j] == 1:
+            V = bfs(i,j,arr)
+            max_ = max(V,max_)
+
+print(max_)
