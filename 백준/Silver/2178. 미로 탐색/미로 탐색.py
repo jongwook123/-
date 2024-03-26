@@ -1,33 +1,38 @@
+from collections import deque
 
-di = [-1,0,0,1]
-dj = [0,-1,1,0]
 
-def bfs(i,j):
-    Q = []
-    Q.append((i,j))
-    visited[i][j] = 1
+
+di = [0,0,1,-1]
+dj = [1,-1,0,0]
+
+def bfs(a,b):
+
+    Q = deque()
+    Q.append((a,b))
+    Visited[a][b] = 1
+
     while Q:
-        i,j = Q.pop(0)
+        i,j = Q.popleft()
+        if i == N - 1 and j == M - 1:
+            return
         for s in range(4):
             ni = i + di[s]
             nj = j + dj[s]
-            if 0 <= ni < N+1 and 0 <= nj < M+1:
+            if 0 <= ni < N and 0 <= nj < M:
                 if arr[ni][nj] == 1:
-                    if not visited[ni][nj]:
+                    if not Visited[ni][nj]:
                         Q.append((ni,nj))
-                        visited[ni][nj] = visited[i][j] + 1
-                elif ni == N and nj == M:
-                    return
+                        Visited[ni][nj] = Visited[i][j] + 1
 
 
 
 
 N,M = map(int,input().split())
-arr = [[0]*(M+1)] + [[0]+ list(map(int,input())) for _ in range(N)]
-visited = [[0]*(M+1) for _ in range(N+1)]
+arr = []
+Visited = [[0] * M for _ in range(N)]
+for _ in range(N):
+    arr.append(list(map(int,input())))
+bfs(0,0)
 
-i = 1
-j = 1
-bfs(i,j)
 
-print(visited[N][M])
+print(Visited[N-1][M-1])
